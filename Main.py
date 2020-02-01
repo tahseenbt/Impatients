@@ -6,6 +6,8 @@ AVG_TIME = 0
 
 NUM_SERVED = 0
 
+CURRENT_ID = 0
+
 #calculates the average wait time, increments the number of patients served
 #cur_time: time at the moment of the call minus the elapsed time of the session
 def avg_wait():
