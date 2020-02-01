@@ -17,6 +17,7 @@ def avg_wait():
     AVG_TIME = (NUM_SERVED* AVG_TIME + cur_time) / (NUM_SERVED + 1)
     NUM_SERVED+=1
 
+
 def serve():
     avg_wait()
-    TICKET_LIST.remove(0)
+    TICKET_LIST.remove(TICKET_LIST[0])
