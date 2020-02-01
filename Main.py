@@ -1,0 +1,6 @@
+TICKET_LIST = []
+
+AVG_TIME = 0
+
+NUM_SERVED = 0
+
