@@ -5,9 +5,9 @@ import datetime
 # cur_time: time at the moment of the call minus the elapsed time of the session
 def avg_wait(avg_service_time, n_served):
     cur_time = datetime.datetime.now() - datetime.timedelta(
-        minutes=(NUM_SERVED * avg_service_time))
-    avg_service_time = (NUM_SERVED * avg_service_time +
-                        cur_time.minute) / (NUM_SERVED + 1)
+        minutes=(n_served * avg_service_time))
+    avg_service_time = (n_served * avg_service_time +
+                        cur_time.minute) / (n_served + 1)
     return avg_service_time
 
 
