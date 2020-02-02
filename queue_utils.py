@@ -3,7 +3,8 @@ import datetime
 #updates all tickets.t_est_time in ticket_list relative to new position
 def update_queue(ticket_list):
 	tmp = ticket_list
-	return [est_update() for ticket in tmp]
+    #does this need ticket._ or list comprehension at all?
+    return [ticket.est_update() for ticket in tmp]
 
 # calculates the average wait time, increments the number of patients served
 # cur_time: time at the moment of the call minus the elapsed time of the session
