@@ -4,9 +4,10 @@ class Ticket:
     current_id = 1
 
     # Instance attributes
-    def __init__(self):
+    def __init__(self, l,time):
         self.t_id = Ticket.current_id
         Ticket.current_id += 1
+        self.t_est_time = l.index(Ticket.current_id) * time
 
     """#iniitialize to estimated time start at t=end of queue
         global AVG_TIME
@@ -21,7 +22,12 @@ class Ticket:
     
     # TODO move to queue_utils? will decide
     def quit(self):
-        TICKET_LIST.remove(self.t_id)"""
+        TICKET_LIST.remove(self.t_id)
+
+    #generic version    
+    def quit(self,l):
+        l.remove(self.t_id)    
+        """
 
 
 if __name__ == "__main__":
