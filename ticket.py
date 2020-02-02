@@ -6,7 +6,7 @@ class Ticket:
     num_served = 0
 
     # Instance attributes
-    def __init__(self):
+    def __init__(self, l,time):
         self.t_id = Ticket.current_id
         Ticket.current_id += 1
         self.t_est_time = 3
