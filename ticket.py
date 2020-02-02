@@ -1,5 +1,4 @@
 from Main import *
-import datetime
 
 class Ticket:
     current_id = 1
