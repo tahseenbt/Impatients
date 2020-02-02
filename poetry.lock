@@ -77,8 +77,8 @@ python-versions = "*"
 version = "0.29.0"
 
 [metadata]
-content-hash = "7dae4d6ce36c58b28c49378e8b559b2780694aa65fd191093a32f192a3794ee4"
-python-versions = "3.7.4"
+content-hash = "3aab41284f5b202e304ae4cbb4820eaf67c1524b8f432d7e9bae8176f9573445"
+python-versions = "3.8.0"
 
 [metadata.files]
 click = [
