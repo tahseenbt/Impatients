@@ -48,4 +48,3 @@ if __name__ == "__main__":
     c = Ticket(TICKET_LIST,5)
     d = Ticket(TICKET_LIST,5)
     print(TICKET_LIST)
-
