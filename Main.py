@@ -7,6 +7,4 @@ AVG_TIME = 1
 
 NUM_SERVED = 0
 
-CURRENT_ID = 0
-
 
